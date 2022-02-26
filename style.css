@@ -1,0 +1,136 @@
+* {
+  font-family: papyrus;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url("2.jpg");
+}
+
+h1 {
+  color: black;
+  text-align: center;
+  font-size: 4rem;
+  margin-top: 50px;
+}
+
+/* task  */
+
+.task {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  width: 82vw;
+  background: rgba(3, 93, 176, 0.65);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+p {
+  font-size: 20px;
+}
+
+/* icon  */
+
+.icon {
+  font-size: 22px;
+}
+
+.icon:hover {
+  font-size: 24px;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.icon-trash {
+  opacity: 0.4;
+}
+
+.icon-trash {
+  color: rgb(255, 255, 255);
+  margin-right: 15px;
+  font-size: 25px;
+}
+
+.icon-trash:hover {
+  color: rgb(47, 45, 84);
+  font-size: 27px;
+}
+
+.icon-angry2:hover {
+  font-size: 27;
+  color: rgb(255, 0, 0);
+}
+
+button {
+  all: unset;
+}
+.icon-upload {
+  font-size: 40px;
+  margin-left: 15px;
+  position: relative;
+  top: 9px;
+  color: black;
+}
+
+.icon-upload:hover {
+  font-size: 45px;
+  transition: 0.4s;
+  color: rgba(79, 181, 188, 0.55);
+}
+
+h2 {
+  font-size: 40px;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 40px;
+}
+
+form {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 10px 20px;
+  border-radius: 10px;
+  width: 40vw;
+  font-size: 20px;
+  text-align: center;
+}
+
+footer p {
+  font-size: 20px;
+  color: black;
+  text-align: center;
+}
+
+/* for javascript */
+
+.dn {
+  display: none;
+}
+
+.icon-heart {
+  color: red;
+  font-size: 22px;
+}
+
+.icon-heart:hover {
+  font-size: 25px;
+  opacity: 0.7;
+  transition: 0.3s;
+}
+
+.finish {
+  text-decoration-line: line-through;
+}
+
+
