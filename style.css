@@ -73,6 +73,7 @@ button {
   all: unset;
 }
 .icon-upload {
+  cursor: pointer;
   font-size: 40px;
   margin-left: 15px;
   position: relative;
